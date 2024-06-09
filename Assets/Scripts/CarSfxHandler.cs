@@ -69,7 +69,7 @@ public class CarSfxHandler : MonoBehaviour
         hitAudioSource.pitch = UnityEngine.Random.Range(0.95f, 1.05f);
         hitAudioSource.volume = volume;
 
-        if(!hitAudioSource.isPlaying)
+        if (!hitAudioSource.isPlaying)
         {
             hitAudioSource.Play();
         }
